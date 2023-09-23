@@ -2,7 +2,7 @@
     font-family: 'Robot Fernando Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Robot Fernando Regular'), url('RobotFernando.woff') format('woff');
+    src: local('Robot Fernando Regular'), url('../RobotFernando.woff') format('woff');
 }
 h1{
     font-family: "Robot Fernando Regular";
