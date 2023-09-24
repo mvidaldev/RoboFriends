@@ -16,7 +16,7 @@ export default function App() {
             .then(users => {
                 setRobots(users)
             });
-    })
+    },[])//Lembrar de usar o Array vazio para evitar looping no useEffect.
 
     const onSearchChange = (event) => {
         setSearchField(event.target.value)
@@ -27,6 +27,7 @@ export default function App() {
         return robot.name.toLowerCase()
             .includes(searchField.toLowerCase());
     });
+    console.log(robots, searchField)
 
     return !robots.length ? <h1>Loading</h1> : (<div className='tc'>
         <h1>RobotFriends</h1>
