@@ -2,6 +2,10 @@
 
 Zero To Mastery React Course.
 
+## Live version
+Open [https://mvidaldev.github.io/RoboFriends](https://mvidaldev.github.io/RoboFriends)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
